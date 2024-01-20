@@ -6,13 +6,13 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'name',
-      title: 'Name',
+      name: 'headline',
+      title: 'Head Line',
       type: 'string',
     }),
     defineField({
-      name: 'slug',
-      title: 'Slug',
+      name: 'subheading',
+      title: 'Sub Heading',
       type: 'slug',
       options: {
         source: 'name',

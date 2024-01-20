@@ -15,5 +15,24 @@ export default defineType({
       title: 'Description',
       type: 'text',
     }),
+    defineField({
+      name:"image",
+      title:"Upload Image",
+      type:"image",
+      options:{
+        hotspot: true
+      }
+    }),
+    defineField({
+      name:"challange",
+      title:"Challanges",
+      type:"array",
+      of: [
+        {
+          title: 'What is the Challange',
+          type: 'text',
+        },
+      ],
+    }),
   ],
 })
