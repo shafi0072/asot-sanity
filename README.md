@@ -9,3 +9,9 @@ Now you can do the following things:
 - [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
 - [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
 - [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+
+
+first a clone koren step 1,
+then step 2 holo shcema alada file a create kora then index er shate connect koren
+
+then finally make npm run deploy
