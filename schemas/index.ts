@@ -6,14 +6,16 @@ import blog from './blog'
 import caseStudies from './caseStudies'
 import contact from './contact'
 import navbar from './navbar'
+import footer from './footer'
 
 export const schemaTypes = [
   navbar,
   homePage,
   company,
+  service,
   blog,
   caseStudies,
   contact,
+  footer,
   blockContent,
-  service,
 ]
