@@ -17,13 +17,13 @@ export default defineType({
 
     // Navbar Menu
     defineField({
-      name: 'navMenu',
-      title: 'Nav Menu',
+      name: 'navBar',
+      title: 'NavBar',
       type: 'array',
       of: [
         {
-          name: 'navMenuItem',
-          title: 'Nav Menu Item',
+          name: 'navBarItem',
+          title: 'NavBar Item',
           type: 'object',
           fields: [
             {
